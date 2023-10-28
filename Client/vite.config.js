@@ -9,7 +9,6 @@ import react from '@vitejs/plugin-react-swc';
 // ----------------------------------------------------------------------
 
 export default defineConfig({
-  base: '/Canvas-FE/',
   plugins: [
     react(),
     checker({
